@@ -1,0 +1,8 @@
+<suite name="Parallel" verbose="1">
+    <parameter name="deviceSystem" value="Android"/>
+    <test name="cucumberProject">
+        <classes>
+            <class name="testRunner.Runner"/>
+        </classes>
+    </test>
+</suite>
